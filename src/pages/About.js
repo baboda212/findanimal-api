@@ -10,7 +10,10 @@ export default function About({animals}) {
         <Nav/>
         <div className='about-container'>
           <h1><span>유</span><span>기</span><span>동</span><span>물</span><span>을</span> <span>지</span><span>켜</span><span>줘</span></h1>
-          
+          {/* <form action="">
+            <input type="text" value="search" placeholder="품종을 검색하세요"/>
+            <button type='submit'>검색</button>
+          </form> */}
           {
             animals.map((animal, key) => {
               return(
