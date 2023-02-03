@@ -12,6 +12,7 @@ function App() {
 
   const [animals, setAnimals] = useState([]);
 
+
   const getAnimalData = () =>{
     fetch(API_URL)
     .then(res => res.json())
