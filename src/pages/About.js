@@ -10,6 +10,7 @@ export default function About({animals}) {
         <Nav/>
         <div className='about-container'>
           <h1><span>유</span><span>기</span><span>동</span><span>물</span><span>을</span> <span>지</span><span>켜</span><span>줘</span></h1>
+          
           {
             animals.map((animal, key) => {
               return(
