@@ -17,7 +17,7 @@ export default function About({animals}) {
           {
             animals.map((animal, key) => {
               return(
-                  <div className='itemList'>
+                  <div className='itemList' key={key}>
                       <img src={animal.popfile} alt={animal.kindCd} />
                       <div className="text">
                           <h2>유기동물정보</h2>
