@@ -118,4 +118,18 @@
   .home_text h1{
     font-size: 32px;
   }
+  .figure {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/57786/dog-walk.svg") no-repeat;
+    width: 220px;
+    height: 266px;
+    transform: translate3D(150px, 50px, 0);
+    animation: walk 0.78s steps(9) infinite;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    perspective: 1000;
+  }
+  
+  .no-svg .figure {
+    background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/57786/dog-walk.png");
+  }
 }
