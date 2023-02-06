@@ -89,6 +89,9 @@ span:nth-child(4n-3) { color:hsl(12, 73%, 61%); text-shadow:1px 1px hsl(32, 45%,
   margin-bottom: 10px;
   text-align: center;
 }
+.about .itemList .text p:last-child{
+  font-weight: bold;
+}
 
 @media (max-width:375px){
   .about h1{
