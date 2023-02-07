@@ -8,3 +8,4 @@
 4. 사용 API : https://www.data.go.kr/
 5. 웹 효과 : SVG animation 효과 활용/ 그라데이션배경 효과 활용
 ![image](https://user-images.githubusercontent.com/113665619/217121682-2f82866d-f806-41c5-b3d6-c14beff33e81.png)
+![image](https://user-images.githubusercontent.com/113665619/217122063-da59f912-b555-47e1-adcb-96c6d6d1ca08.png)
