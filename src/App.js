@@ -55,7 +55,6 @@ function App() {
   //페이지번호 바뀌면API요청
   useEffect(() => {
     getAnimalData();
-
   }, [ pageNo, totalCount, search ])
 
   //console.log('animals = ', animals)
@@ -66,7 +65,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/about' element={<About animals = {animals} pageNo = {pageNo} maxPages ={maxPages} nextPage = {nextPage} prevPage = {prevPage} totalCount = {totalCount} inputRef = {inputRef} setSearch = {setSearch} setPageNo={setPageNo} />} />
+        <Route path='/about' element={<About animals = {animals} pageNo = {pageNo} maxPages ={maxPages} nextPage = {nextPage} prevPage = {prevPage} totalCount = {totalCount} inputRef = {inputRef} setSearch = {setSearch} setPageNo={setPageNo}  />} />
         <Route path='/projects' element={<Projects/>} />
       </Routes>
     </BrowserRouter>

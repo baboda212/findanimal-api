@@ -14,14 +14,13 @@ export default function About({animals, pageNo, maxPages, prevPage, nextPage, to
           <form onSubmit={(e) =>{
               e.preventDefault();
               //입력창에 입력된 값 참조(ref={inputRef})
-              let val = inputRef.current.value;//입력요소의 현재 값
+              let val = inputRef.current.value;//입력요소의 현재 값 input값
               console.log("입력요소",val);
               //console.log("지역",animals[0].orgNm)
-              if (val === '') {
+              if (val == '') {
                 setSearch(val); //아무입력이 없을때 전체 보여주기
               } else {
-                setSearch(`&orgNm=${val}`);//입력값이 있으면
-              
+                setSearch(Object(`&orgNm=${val}`));//입력값이 있으면 
               }
               setPageNo(1)
             }}>
@@ -44,7 +43,7 @@ export default function About({animals, pageNo, maxPages, prevPage, nextPage, to
           {
             animals.map((animal, key) => {
               return(
-                  <div className='itemList' key={key}>
+                  <div className='itemList' key={key} >
                       <img src={animal.popfile} alt={animal.kindCd} />
                       <div className="text">
                           <h2>유기동물정보</h2>
