@@ -92,6 +92,16 @@ span:nth-child(4n-3) { color:hsl(12, 73%, 61%); text-shadow:1px 1px hsl(32, 45%,
 .about .itemList .text p:last-child{
   font-weight: bold;
 }
+.about .btngroup .btnNext{
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 15px;
+  font-family: 'Gamja Flower';
+}
+.about .btngroup .btnNext:first-child{
+  margin-right: 20px;
+}
 
 @media (max-width:375px){
   .about h1{
