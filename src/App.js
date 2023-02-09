@@ -15,11 +15,10 @@ function App() {
   const [search, setSearch] = useState(''); //검색어
   const inputRef = useRef();//검색창요소의 위치 참조
   
- 
 
     const getAnimalData =  () =>{
       const API_KEY = `%2BefalOjB2%2F4P8zlVJ%2BVlLxjqN1PS6NrVpqtyI3G%2F9WERm2OZRIB57ocCGqM81E5hIUU6%2F2LYYVyEgMxVauj6Sw%3D%3D`;
-      
+        
       const API_URL = `http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?bgnde=20230101&endde=20231231&pageNo=${pageNo}&numOfRows=${rows}&serviceKey=${API_KEY}&_type=json&state=${search}`;
 
     fetch(API_URL)
