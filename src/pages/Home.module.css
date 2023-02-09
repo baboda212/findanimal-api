@@ -18,18 +18,20 @@
   margin-top: 20px;
   font-size: 48px;
   margin-bottom: 2rem;
+  color: #9d5cbb;
 }
 .home_text a{
   font-size: 20px;
-  color: #fff;
+  color: #71787d;
   text-decoration: none;
-  border: 1px solid rgba(0, 0, 0, 0.486);
+  border: 1px solid #71787d;
   padding: 10px;
   border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.486);
+  background-color: transparent;
 }
 .home_text a:hover{
-  background-color: #000;
+  background-color: #71787d;
+  color: #fff;
 }
 /*--extend--*/
 .area, .fore, .mid, .bk, .container {

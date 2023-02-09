@@ -1,7 +1,7 @@
 /* Home.js */
 import React from 'react';
 import Nav from '../components/Nav';
-import style from './style.module.css';
+import style from './Home.module.css';
 import Footer from '../components/Footer';
 
 export default function Home() {
