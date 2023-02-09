@@ -179,14 +179,20 @@ span:nth-child(4n-3) { color:hsl(12, 73%, 61%); text-shadow:1px 1px hsl(32, 45%,
 /* Nav.js css */
 .nav{
   width: 100%;
-  background: #dbe9f6;
+ /*  background:linear-gradient(#dbe9f6,transparent), 
+    linear-gradient(-45deg,#fefcc9,transparent), 
+    linear-gradient(45deg,#f7d0d5,transparent); 
+  background-blend-mode: sreen;  */
+  background: #f7d0d5;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 13px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   text-align: center;
   padding: 20px;
-  padding-top: 40px;
 }
 .nav .gnb{
   max-width: 1220px;
+}
+.nav .gnb img{
+  margin-bottom: 0;
 }
 .nav a{
   color: #71787d;
@@ -195,8 +201,11 @@ span:nth-child(4n-3) { color:hsl(12, 73%, 61%); text-shadow:1px 1px hsl(32, 45%,
   font-weight: bold;
   font-size: 24px;
 }
-.nav a:nth-child(1){
-  margin-left: 0;
+.nav a:nth-child(2){
+  margin-left: 10px;
+}
+.nav a:nth-child(4){
+  margin-right: 10px;
 }
 .nav a:hover{
   color: #000;
@@ -204,8 +213,11 @@ span:nth-child(4n-3) { color:hsl(12, 73%, 61%); text-shadow:1px 1px hsl(32, 45%,
 
 @media (max-width:375px){
   .nav a{
-    font-size: 18px;
+    font-size: 17px;
   } 
+  .nav .gnb img{
+    display: none;
+  }
 }
 
 /* project */
