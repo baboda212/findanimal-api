@@ -92,6 +92,9 @@ span:nth-child(4n-3) { color:hsl(12, 73%, 61%); text-shadow:1px 1px hsl(32, 45%,
 .about .itemList .text p:last-child{
   font-weight: bold;
 }
+.about .btngroup{
+  text-align: center;
+}
 .about .btngroup .btnNext{
   padding: 5px;
   background-color: transparent;
