@@ -123,6 +123,22 @@ span:nth-child(4n-3) { color:hsl(12, 73%, 61%); text-shadow:1px 1px hsl(32, 45%,
     width: 100%;
   }
 }
+@media (max-width:414px){
+  .about h1{
+    font-size: 3rem;
+  } 
+  .about .itemList{
+    display: flex;
+    flex-direction: column;
+  }
+  .about .itemList img{
+    width: 100%;
+  }
+  .about .itemList .text{
+    /* outline: 1px solid red; */
+    width: 100%;
+  }
+}
 
 /* .snow {
 	position: absolute;
