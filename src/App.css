@@ -222,6 +222,14 @@ span:nth-child(4n-3) { color:hsl(12, 73%, 61%); text-shadow:1px 1px hsl(32, 45%,
     display: none;
   }
 }
+@media (max-width:414px){
+  .nav a{
+    font-size: 17px;
+  } 
+  .nav .gnb img{
+    display: none;
+  }
+}
 
 /* project */
 .container{
