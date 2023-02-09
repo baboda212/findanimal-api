@@ -56,7 +56,6 @@ function App() {
   //페이지번호 바뀌면API요청
   useEffect(() => {
     getAnimalData();
-
   }, [ pageNo, totalCount, search ])
 
   //console.log('animals = ', animals)

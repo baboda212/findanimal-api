@@ -11,31 +11,6 @@ export default function About({animals, pageNo, maxPages, prevPage, nextPage, to
 
         <div className='about-container'>
           <h1><span>유</span><span>기</span><span>동</span><span>물</span><span>을</span> <span>지</span><span>켜</span><span>줘</span></h1>
-              
-          {/* <form onSubmit={(e) =>{
-              e.preventDefault();
-              //입력창에 입력된 값 참조(ref={inputRef})
-              let val = inputRef.current.value;//입력요소의 현재 값
-              console.log("입력요소",val);
-              //console.log("지역",animals[0].orgNm)
-              if (val === null) {
-                setSearch(val); //아무입력이 없을때 전체 보여주기
-              } else {
-                //search=[...animals]
-                //console.log(search)
-                setSearch(`&processState=${val}`);//입력값이 있으면
-                
-              }
-              setPageNo(1)
-            }}>
-              <input
-              onInput={(e)=>{
-                //console.log(e.target.value);
-              }}
-              ref={inputRef} type='search' name='s' placeholder='검색어 입력'
-              ></input>
-              <button>검색</button>
-          </form>  */}
 
           <p>Page: {pageNo} / {maxPages}</p>
           <p>{totalCount}건 등록</p>
@@ -47,7 +22,7 @@ export default function About({animals, pageNo, maxPages, prevPage, nextPage, to
           {
             animals.map((animal, key) => {
               return(
-                  <div className='itemList' key={key}>
+                  <div className='itemList' key={key} >
                       <img src={animal.popfile} alt={animal.kindCd} />
                       <div className="text">
                           <h2>유기동물정보</h2>
