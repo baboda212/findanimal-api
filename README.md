@@ -1,4 +1,5 @@
 # 유기동물을 지켜줘 (스마트 웹앱)
+### 소스주소: https://github.com/baboda212/findanimal-api.git
 ### 배포 : 클라우드타입 (https://web-findanimal-api-1b5xkk2fldo4kz3a.gksl2.cloudtype.app/)
 ### 앱용파일 제작 완료(apk파일) : https://expo.dev/artifacts/eas/7Nnn4bwncqWFuGDxMvJhM2.apk
 
