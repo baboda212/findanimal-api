@@ -17,6 +17,57 @@
 
 (1) header (nav) 수정
 
+    .nav{
+      width: 100%;
+     /*  background:linear-gradient(#dbe9f6,transparent), 
+        linear-gradient(-45deg,#fefcc9,transparent), 
+        linear-gradient(45deg,#f7d0d5,transparent); 
+      background-blend-mode: sreen;  */
+      background: #f7d0d5;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 8px 13px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      text-align: center;
+      padding: 20px;
+    }
+    .nav .gnb{
+      max-width: 1220px;
+    }
+    .nav .gnb img{
+      margin-bottom: 0;
+    }
+    .nav a{
+      color: #71787d;
+      text-decoration: none;
+      margin-left: 40px;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    .nav a:nth-child(2){
+      margin-left: 10px;
+    }
+    .nav a:nth-child(4){
+      margin-right: 10px;
+    }
+    .nav a:hover{
+      color: #000;
+    }
+
+    @media (max-width:375px){
+      .nav a{
+        font-size: 17px;
+      } 
+      .nav .gnb img{
+        display: none;
+      }
+    }
+    @media (max-width:414px){
+      .nav a{
+        font-size: 17px;
+      } 
+      .nav .gnb img{
+        display: none;
+      }
+    }
+
 (2) 전체적인 메인 폰트 색상 교체
 
     .color: #71787d;
