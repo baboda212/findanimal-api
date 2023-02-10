@@ -16,7 +16,7 @@
 
 6.추가 수정 보완작업 진행(2023.02.08~)
 
-(1) header (nav) 수정
+(1) header (nav) 수정(css수정)
 
     .nav{
       width: 100%;
@@ -87,6 +87,8 @@
             <button className='btnNext' onClick={prevPage}>이전 페이지</button>
             <button className='btnNext' onClick={nextPage}>다음 페이지</button>
           </div>
+          
+      <css> 
     .about .btngroup .btnNext{
       padding: 5px;
       background-color: transparent;
