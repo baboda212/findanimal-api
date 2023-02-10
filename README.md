@@ -4,10 +4,13 @@
 
 1. 제작기간 : 2023.02.01~2023.02.07
 2. 사용언어 및 라이브러리 :  HTML, CSS, Javascript, node.js, react, expo
+
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,nodejs,react,figma&theme=light)](https://skillicons.dev)
+
 3. 주요특징 : 공공 API를 활용한 전국 유기동물 실시간 조회
 4. 사용 API : https://www.data.go.kr/
 5. 웹 효과 : SVG animation 효과 활용/ 그라데이션배경 효과 활용
+
 ![image](https://user-images.githubusercontent.com/113665619/217969065-c225c47e-9fe6-469b-a88d-3326fa4192af.png)
 
 6.추가 수정 보완작업 진행(2023.02.08~)
