@@ -19,14 +19,66 @@
 
 (2) 전체적인 메인 폰트 색상 교체
 
+    .color: #71787d;
+    .color: #9885d7;
+    .color: #9d5cbb;
+
 (3) vscode상 warning 체크 - create-react-app으로 생성한 프로젝트로 인하여 빌드시 메모리 부족현상 발생
 
     .env파일 생성 후 GENERATE_SOURCEMAP=false 설정
     
 (4) api자료의 총 갯수와 페이지 설정
 
+    .<p>Page: {pageNo} / {maxPages}</p>
+          <p>{totalCount}건 등록</p>
+          <div className='btngroup'>
+            <button className='btnNext' onClick={prevPage}>이전 페이지</button>
+            <button className='btnNext' onClick={nextPage}>다음 페이지</button>
+          </div>
+    .about .btngroup .btnNext{
+      padding: 5px;
+      background-color: transparent;
+      border: 1px solid black;
+      border-radius: 15px;
+      font-family: 'Gamja Flower';
+    }
+    .about .btngroup .btnNext:first-child{
+      margin-right: 20px;
+    }
+    .about .btngroup .btnNext:hover{
+      background-color: #71787d;
+      color: #fff;
+    }
+
 (5) create-react-app 으로 빌드하면서 생긴 불필요한 사진파일 및 소스 제거
 
-(6) 모바일용 사이즈 수정: 각 모바일 기기에 맞춘 사이즈 수정
+(6) 모바일용 사이즈 수정: 각 모바일 기기에 맞춘 사이즈 추가 및 수정
+
+    .@media (max-width:414px){
+      .nav a{
+        font-size: 17px;
+      } 
+      .nav .gnb img{
+        display: none;
+      }
+    }
+   
 
 (7) 모바일 상 유기동물 정보 display수정
+
+     .@media (max-width:414px){
+      .about h1{
+        font-size: 3rem;
+      } 
+      .about .itemList{
+        display: flex;
+        flex-direction: column;
+      }
+      .about .itemList img{
+        width: 100%;
+      }
+      .about .itemList .text{
+        /* outline: 1px solid red; */
+        width: 100%;
+      }
+    }
