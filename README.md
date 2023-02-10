@@ -82,3 +82,31 @@
         width: 100%;
       }
     }
+
+(8) manifest.json파일 수정
+
+    {
+      "short_name": "유기동물을 지켜줘",
+      "name": "Create React App Sample",
+      "icons": [
+        {
+          "src": "favicon.ico",
+          "sizes": "64x64 32x32 24x24 16x16",
+          "type": "image/x-icon"
+        },
+        {
+          "src": "icon.png",
+          "type": "image/png",
+          "sizes": "192x192"
+        },
+        {
+          "src": "icon.png",
+          "type": "image/png",
+          "sizes": "512x512"
+        }
+      ],
+      "start_url": ".",
+      "display": "standalone",
+      "theme_color": "#000000",
+      "background_color": "#ffffff"
+    }
