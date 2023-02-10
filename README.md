@@ -6,7 +6,7 @@
 1. 제작기간 : 2023.02.01~2023.02.07
 2. 사용언어 및 라이브러리 :  HTML, CSS, Javascript, node.js, react, expo
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,nodejs,react,figma&theme=light)](https://skillicons.dev)
+   [![My Skills](https://skillicons.dev/icons?i=html,css,js,nodejs,react,figma&theme=light)](https://skillicons.dev)
 
 3. 주요특징 : 공공 API를 활용한 전국 유기동물 실시간 조회, 페이지 구성 및 총 유기동물 개체수 
 4. 사용 API : https://www.data.go.kr/
