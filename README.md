@@ -1,5 +1,6 @@
 # 유기동물을 지켜줘 (스마트 웹앱)
 ### 배포 : 클라우드타입 (https://web-findanimal-api-1b5xkk2fldo4kz3a.gksl2.cloudtype.app/)
+### 앱용파일 제작 완료 : https://expo.dev/artifacts/eas/7Nnn4bwncqWFuGDxMvJhM2.apk
 ### apk파일 제작 완료
 1. 제작기간 : 2023.02.01~2023.02.07
 2. 사용언어 및 라이브러리 :  HTML, CSS, Javascript, node.js, react, expo
