@@ -110,3 +110,7 @@
       "theme_color": "#000000",
       "background_color": "#ffffff"
     }
+
+(9) apk앱 구동 시 발생하는 api정보 미출력 해결
+
+    index.html 파일에  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
