@@ -5,6 +5,7 @@ import { useState, useEffect, useRef} from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
+import getFormatDate from './Date_f';
 
 function App() {
   const [animals, setAnimals] = useState([]);
@@ -15,11 +16,11 @@ function App() {
   const [search, setSearch] = useState(''); //검색어
   const inputRef = useRef();//검색창요소의 위치 참조
   
-
     const getAnimalData =  () =>{
       const API_KEY = `%2BefalOjB2%2F4P8zlVJ%2BVlLxjqN1PS6NrVpqtyI3G%2F9WERm2OZRIB57ocCGqM81E5hIUU6%2F2LYYVyEgMxVauj6Sw%3D%3D`;
-        
-      const API_URL = `http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?bgnde=20230101&endde=20231231&pageNo=${pageNo}&numOfRows=${rows}&serviceKey=${API_KEY}&_type=json&state=${search}`;
+      const day = getFormatDate(new Date()); 
+      const API_URL = `http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?bgnde=20230101&endde=${day}&pageNo=${pageNo}&numOfRows=${rows}&serviceKey=${API_KEY}&_type=json&state=${search}`;
+      console.log(day);
 
     fetch(API_URL)
     .then(res => res.json())
@@ -65,7 +66,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/about' element={<About animals = {animals} pageNo = {pageNo} maxPages ={maxPages} nextPage = {nextPage} prevPage = {prevPage} totalCount = {totalCount} inputRef = {inputRef} setSearch = {setSearch} setPageNo={setPageNo} search={search} />} />
+        <Route path='/about' element={<About animals = {animals} pageNo = {pageNo} maxPages ={maxPages} nextPage = {nextPage} prevPage = {prevPage} totalCount = {totalCount} inputRef = {inputRef} setSearch = {setSearch} setPageNo={setPageNo} search = {search}/>} />
         <Route path='/projects' element={<Projects/>} />
       </Routes>
     </BrowserRouter>
