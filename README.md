@@ -7,7 +7,7 @@
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,nodejs,react,figma&theme=light)](https://skillicons.dev)
 
-3. 주요특징 : 공공 API를 활용한 전국 유기동물 실시간 조회
+3. 주요특징 : 공공 API를 활용한 전국 유기동물 실시간 조회, 페이지 구성 및 총 유기동물 개체수 
 4. 사용 API : https://www.data.go.kr/
 5. 웹 효과 : SVG animation 효과 활용/ 그라데이션배경 효과 활용
 
