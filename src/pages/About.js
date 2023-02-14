@@ -32,7 +32,8 @@ export default function About({animals, pageNo, maxPages, prevPage, nextPage, to
                           <p>유기 장소 및 발견 일자 : {animal.happenPlace}({animal.happenDt.replace(/(\d{4})(\d{2})(\d{2})/, '$1.$2.$3')}) </p>
                           <p>공고기간 :{animal.noticeSdt.replace(/(\d{4})(\d{2})(\d{2})/, '$1.$2.$3')} ~ {animal.noticeEdt.replace(/(\d{4})(\d{2})(\d{2})/, '$1.$2.$3')}</p>
                           <p>상태 : {animal.processState}</p>
-                          <p>보호소 : {animal.careNm} / <a href='tel:{animal.careTel}'>{animal.careTel}</a></p>
+                          <p>보호소 : {animal.careNm} </p>
+                          <p>문의 : <a href='tel:{animal.careTel}'>{animal.careTel}</a>(누르면 전화연결됩니다.)</p>
                       </div>
                   </div>
               )

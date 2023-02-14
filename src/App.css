@@ -84,6 +84,11 @@ span:nth-child(4n-3) { color:hsl(12, 73%, 61%); text-shadow:1px 1px hsl(32, 45%,
   /* outline: 1px solid red; */
   padding: 10px 10px;
 }
+.about .itemList .text a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #9d5cbb;
+}
 .about .itemList .text h2{
   margin-bottom: 10px;
   text-align: center;
