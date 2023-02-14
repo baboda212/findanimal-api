@@ -12,19 +12,16 @@
 4. 사용 API : https://www.data.go.kr/
 5. 웹 효과 : SVG animation 효과 활용/ 그라데이션배경 효과 활용
 
-<<<<<<< HEAD
-  ![image](https://user-images.githubusercontent.com/113665619/217969065-c225c47e-9fe6-469b-a88d-3326fa4192af.png)
-
 6. 추가 수정 보완작업 진행(2023.02.08~)
 
 - header (nav) 수정(css수정)
-=======
+
    ![image](https://user-images.githubusercontent.com/113665619/217969065-c225c47e-9fe6-469b-a88d-3326fa4192af.png)
 
 6.추가 수정 보완작업 진행(2023.02.08~)
 
 (1) header (nav) 수정(css수정)
->>>>>>> f47ecb41c5c6dd652250d9146f04c66259d86e6c
+
 
     .nav{
       width: 100%;
@@ -77,29 +74,29 @@
       }
     }
 
-<<<<<<< HEAD
+
 - 전체적인 메인 폰트 색상 교체
-=======
+
 (2) 전체적인 메인 폰트 색상 교체
->>>>>>> f47ecb41c5c6dd652250d9146f04c66259d86e6c
+
 
     .color: #71787d;
     .color: #9885d7;
     .color: #9d5cbb;
 
-<<<<<<< HEAD
+
 - vscode상 warning 체크 - create-react-app으로 생성한 프로젝트로 인하여 빌드시 메모리 부족현상 발생
 
     .env파일 생성 후 GENERATE_SOURCEMAP=false 설정
     
 - api자료의 총 갯수와 페이지 설정
-=======
+
 (3) vscode상 warning 체크 - create-react-app으로 생성한 프로젝트로 인하여 빌드시 메모리 부족현상 발생
 
     .env파일 생성 후 GENERATE_SOURCEMAP=false 설정
     
 (4) api자료의 총 갯수와 페이지 설정
->>>>>>> f47ecb41c5c6dd652250d9146f04c66259d86e6c
+
 
     .<p>Page: {pageNo} / {maxPages}</p>
           <p>{totalCount}건 등록</p>
@@ -124,15 +121,15 @@
       color: #fff;
     }
 
-<<<<<<< HEAD
+
 - create-react-app 으로 빌드하면서 생긴 불필요한 사진파일 및 소스 제거
 
 - 모바일용 사이즈 수정: 각 모바일 기기에 맞춘 사이즈 추가 및 수정
-=======
+
 (5) create-react-app 으로 빌드하면서 생긴 불필요한 사진파일 및 소스 제거
 
 (6) 모바일용 사이즈 수정: 각 모바일 기기에 맞춘 사이즈 추가 및 수정
->>>>>>> f47ecb41c5c6dd652250d9146f04c66259d86e6c
+
 
     .@media (max-width:414px){
       .nav a{
@@ -144,11 +141,11 @@
     }
    
 
-<<<<<<< HEAD
+
 - 모바일 상 유기동물 정보 display수정
-=======
+
 (7) 모바일 상 유기동물 정보 display수정
->>>>>>> f47ecb41c5c6dd652250d9146f04c66259d86e6c
+
 
      .@media (max-width:414px){
       .about h1{
@@ -167,11 +164,11 @@
       }
     }
 
-<<<<<<< HEAD
+
 - manifest.json파일 수정
-=======
+
 (8) manifest.json파일 수정
->>>>>>> f47ecb41c5c6dd652250d9146f04c66259d86e6c
+
 
     {
       "short_name": "유기동물을 지켜줘",
@@ -199,16 +196,16 @@
       "background_color": "#ffffff"
     }
 
-<<<<<<< HEAD
+
 - apk앱 구동 시 발생하는 api정보 미출력 해결
 
     index.html 파일에  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
 
 - SEO설정완료
-=======
+
 (9) apk앱 구동 시 발생하는 api정보 미출력 해결
 
     index.html 파일에  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
 
 (10) SEO설정완료
->>>>>>> f47ecb41c5c6dd652250d9146f04c66259d86e6c
+
