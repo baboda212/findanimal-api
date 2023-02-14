@@ -5,7 +5,7 @@ import { useState, useEffect, useRef} from 'react';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import getFormatDate from './Date_f';
+import getFormatDate from './Date_f'; //날짜 포맷 함수 
 
 function App() {
   const [animals, setAnimals] = useState([]);
@@ -20,12 +20,12 @@ function App() {
       const API_KEY = `%2BefalOjB2%2F4P8zlVJ%2BVlLxjqN1PS6NrVpqtyI3G%2F9WERm2OZRIB57ocCGqM81E5hIUU6%2F2LYYVyEgMxVauj6Sw%3D%3D`;
       const day = getFormatDate(new Date()); 
       const API_URL = `http://apis.data.go.kr/1543061/abandonmentPublicSrvc/abandonmentPublic?bgnde=20230101&endde=${day}&pageNo=${pageNo}&numOfRows=${rows}&serviceKey=${API_KEY}&_type=json&state=${search}`;
-      console.log(day);
+      //console.log(day);
 
     fetch(API_URL)
     .then(res => res.json())
     .then(data =>{
-      console.log(data.response.body.items.item);
+      //console.log(data.response.body.items.item);
       const items = data.response.body.items.item;
       // 데이터를 state에 저장
       setAnimals(items);
@@ -61,7 +61,7 @@ function App() {
   //console.log('animals = ', animals)
   //console.log('totalCount = ', totalCount)
   //console.log('maxPages = ', maxPages);
-
+ 
   return (
     <BrowserRouter>
       <Routes>
