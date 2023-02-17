@@ -59,6 +59,7 @@ span:nth-child(4n-3) { color:hsl(12, 73%, 61%); text-shadow:1px 1px hsl(32, 45%,
 
 }
 .about .itemList{
+  max-width: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,7 +75,8 @@ span:nth-child(4n-3) { color:hsl(12, 73%, 61%); text-shadow:1px 1px hsl(32, 45%,
 }
 .about .itemList img{
   width: 50%;
-  height: 30vh;
+  object-fit: fill;
+  height: 30vh; 
   border-radius: 10px;
   margin-right: 10px;
   /* outline: 1px solid red; */

@@ -58,6 +58,7 @@ function App() {
     getAnimalData();
   }, [ pageNo, totalCount, search ])
 
+ 
   //console.log('animals = ', animals)
   //console.log('totalCount = ', totalCount)
   //console.log('maxPages = ', maxPages);
